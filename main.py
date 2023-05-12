@@ -36,4 +36,4 @@ while quiz.still_has_questions():
     
     
 # Step 9. Notify the user when the quiz is completed and show the final score
-print("You have completed the quiz!", f"your final score was: {quiz.score}/{quiz.question_number}")
+print("YAY! You finished the quiz!", f"your final score was: {quiz.score}/{quiz.question_number}")

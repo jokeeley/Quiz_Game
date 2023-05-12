@@ -31,10 +31,10 @@ class QuizBrain:
             # 8b. Increase the score by 1
             self.score += 1
             # 8c. Let the user know they are correct
-            print("You got it right! WOOOO :) ❤🎉")
+            print("Huzzah! You were correct :) ❤🎉")
         # 8d. Create else statement for when the user gets the answer wrong
         else:
-            print('BOOOO! you got it wrong 😡')
+            print('Oh noooooo you got it wrong 😡')
             
         # 8f. Display the correct answer
         print(f"The correct answer was: {correct_answer}")
